@@ -1,0 +1,56 @@
+h1, h2 {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 30px;
+}
+
+#name:hover {
+    color: orange;
+}
+
+.flex-container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.animations {
+    background-color: red;
+    padding: 20px;
+    font-weight: bold;
+    color: white;
+}
+
+.fonts {
+    background-color: blue;
+    padding: 20px;
+    font-weight: bold;
+    color: white;
+}
+
+.grids {
+    background-color: purple;
+    padding: 20px;
+    font-weight: bold;
+    color: white;
+}
+
+.colors {
+    background-color: pink;
+    padding: 20px;
+    font-weight: bold;
+    color: white;
+}
+
+a {
+    padding-left: 20px;
+    text-decoration: none;
+    background-color: yellow;
+    font-size: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+a:hover {
+    text-decoration: underline;
+}
